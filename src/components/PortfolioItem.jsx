@@ -5,7 +5,7 @@ function PortfolioItem({ title, imgUrl, stack, link }) {
     <>
       <a
         href={link}
-        target="_blank"
+        // target="_blank"
         rel="noopener noreferrer"
         className="border-2 border-stone-900 dark:border-white rounded-md overflow-hidden"
       >
