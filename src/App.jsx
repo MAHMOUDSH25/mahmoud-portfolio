@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Contact from "./components/Contact";
+import Demo from "./components/Demo";
 import Footer from "./components/Footer";
 import Intro from "./components/Intro";
 import Portfolio from "./components/Portfolio";
@@ -78,6 +79,7 @@ function App() {
           <Timeline />
           <Contact />
           <Footer />
+          {/* <Demo /> */}
         </div>
       </div>
     </>
