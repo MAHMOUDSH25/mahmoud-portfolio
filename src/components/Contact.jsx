@@ -3,7 +3,45 @@ import Title from "./Title.jsx";
 import emailjs from "@emailjs/browser";
 
 function Contact() {
-  // const form = useRef();
+  
+
+  return (
+    <>
+      <div className="flex flex-col mb-10 mx-auto">
+        <div className="flex flex-col justify-center items-center">
+          <p className="flex flex-col items-center mb-10 text-cyan-300 text-2xl">
+            Feel free to reach out{" "}
+            <b>
+              <em>
+                <a
+                  className="text-violet-400 hover:underline underline-offset-1 decoration-2 decoration-cyan-500"
+                  href="mailto:mhmoodsh1996@gmail.com"
+                >
+                  Mhmoodsh1996@gmail.com
+                </a>
+              </em>
+            </b>
+          </p>
+          <a
+            target="_blank"
+            href="Mahmoud_AlShawish_Resume.pdf"
+          >
+            <button className="text-center text-3xl inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-violet-500 to-cyan-500 drop-shadow-md">
+              OPEN CV
+            </button>
+          </a>
+
+         
+        </div>
+      </div>
+    </>
+  );
+}
+
+export default Contact;
+
+
+// const form = useRef();
 
   // const sendEmail = (e) => {
   //   e.preventDefault();
@@ -47,33 +85,16 @@ function Contact() {
   //     );
   // };
 
-  return (
-    <>
-      <div className="flex flex-col mb-10 mx-auto">
-        <div className="flex flex-col justify-center items-center">
-          <p className="flex flex-col items-center mb-10 text-cyan-300 text-2xl">
-            Feel free to reach out{" "}
-            <b>
-              <em>
-                <a
-                  className="text-violet-400 hover:underline underline-offset-1 decoration-2 decoration-cyan-500"
-                  href="mailto:mhmoodsh1996@gmail.com"
-                >
-                  Mhmoodsh1996@gmail.com
-                </a>
-              </em>
-            </b>
-          </p>
-          <a
-            target="_blank"
-            href="Mahmoud_AlShawish_CV.pdf"
-          >
-            <button className="text-center text-3xl inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-violet-500 to-cyan-500 drop-shadow-md">
-              OPEN CV
-            </button>
-          </a>
 
-          {/* <form ref={form} onSubmit={sendEmail} method="POST">
+// 
+// 
+// 
+// 
+// 
+
+
+
+   {/* <form ref={form} onSubmit={sendEmail} method="POST">
             <label>Name</label>
             <input type="text" name="user_name" />
             <label>Email</label>
@@ -120,10 +141,3 @@ function Contact() {
           {/* Work with me */}
           {/* </button> */}
           {/* </form> */}
-        </div>
-      </div>
-    </>
-  );
-}
-
-export default Contact;

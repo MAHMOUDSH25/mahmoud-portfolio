@@ -1,11 +1,11 @@
 import React from "react";
 
-function PortfolioItem({ title, imgUrl, stack, link }) {
+function PortfolioItem({ title, imgUrl, progress, stack, link }) {
   return (
     <>
       <a
         href={link}
-        // target="_blank"
+        target="_blank"
         rel="noopener noreferrer"
         className="border-2 border-stone-900 dark:border-white rounded-md overflow-hidden"
       >
@@ -24,6 +24,9 @@ function PortfolioItem({ title, imgUrl, stack, link }) {
                 {item}
               </span>
             ))}
+          </p>
+          <p className="text-xs md:text-xs mt-2 font-medium dark:text-gray-400">
+            <em>{progress}</em>
           </p>
         </div>
       </a>

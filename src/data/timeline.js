@@ -18,7 +18,7 @@ export default [
         details: "Led end-to-end development of application to facilitate communications between patient and doctor and reduce need for patients to physically visit doctor's clinic. Researched, tested, and recognised requirements for application. Designed application interface and internal dynamics. Projected scenarios regarding appropriate and continual functioning of application. Designed flow charts for sequence events and visual identity as well as branding of application. Hands-on experience developing various applications, including PocketDoc.",
     },
     {
-        year:'2022',
+        year:'2020',
         title:'IT Support (PC assembler).',
         duration: '4 years',
         details: "PC Assembler/adviser Provided technical support for people having trouble assembling their PC, configuring it, hardware choosing, and Software installation. Helped people to choose the right components for their setups, learned how to use VR devices and how to operate games, updated devices systems and installed new products to smooth the experience for the customer",
